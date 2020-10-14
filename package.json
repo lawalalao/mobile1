@@ -1,0 +1,66 @@
+{
+    "name": "MaliparkApp",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "babel-plugin-module-resolver": "^3.2.0",
+        "jest": "^24.8.0",
+        "jetifier": "^1.6.6",
+        "metro-react-native-babel-preset": "^0.54.1",
+        "react-test-renderer": "16.3.1"
+    },
+    "scripts": {
+        "start": "npx jetify; react-native start",
+        "android": "react-native run-android",
+        "postinstall": "npx jetify",
+        "ios": "react-native run-ios",
+        "test": "jest"
+    },
+    "jest": {
+        "preset": "react-native"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.4.4",
+        "@react-native-community/async-storage": "^1.4.2",
+        "@react-native-community/toolbar-android": "0.1.0-rc.2",
+        "link": "^0.1.5",
+        "lodash": "^4.17.11",
+        "react": "16.8.3",
+        "react-native": "0.59.10",
+        "react-native-cli": "^2.0.1",
+        "react-native-communications": "^2.2.1",
+        "react-native-draggable-flatlist": "^1.1.7",
+        "react-native-easy-toast": "^1.2.0",
+        "react-native-enhanced-popup-menu": "^0.6.1",
+        "react-native-event-listeners": "^1.0.3",
+        "react-native-expandable-section-flatlist": "^1.2.2",
+        "react-native-extended-stylesheet": "^0.11.1",
+        "react-native-firebase": "5.5.6",
+        "react-native-fs": "^2.13.3",
+        "react-native-geolocation-service": "^2.0.0",
+        "react-native-gesture-handler": "1.3.0",
+        "react-native-google-places-autocomplete": "^1.3.9",
+        "react-native-image-picker": "^0.28.1",
+        "react-native-image-resizer": "^1.0.1",
+        "react-native-image-zoom-viewer": "^3.0.1",
+        "react-native-maps": "^0.24.2",
+        "react-native-material-bottom-navigation": "^1.0.3",
+        "react-native-navigation": "^2.0.2641",
+        "react-native-photo-upload": "^1.3.0",
+        "react-native-picker-select": "^6.1.0",
+        "react-native-reanimated": "^1.0.1",
+        "react-native-rest-client": "^0.1.1",
+        "react-native-screens": "^2.10.1",
+        "react-native-snap-carousel": "^3.8.0",
+        "react-native-sortable-listview": "^0.2.8",
+        "react-native-svg-image": "^2.0.1",
+        "react-native-svg-uri": "^1.2.3",
+        "react-native-vector-icons": "^6.5.0",
+        "react-navigation": "^3.11.0"
+    },
+    "rnpm": {
+        "assets": [
+            "./resources/fonts/"
+        ]
+    }
+}

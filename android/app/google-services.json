@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "166703101209",
+    "firebase_url": "https://notification-ec323.firebaseio.com",
+    "project_id": "notification-ec323",
+    "storage_bucket": "notification-ec323.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166703101209:android:16f0a4a091e172048c0188",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166703101209-3o5qr4vfsc6uvnvm7oh0iihml9o89sml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5TBfjbDXMl9iF9pEQPtVKRxmlurIHL-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166703101209-3o5qr4vfsc6uvnvm7oh0iihml9o89sml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
